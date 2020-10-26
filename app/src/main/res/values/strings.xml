@@ -5,4 +5,6 @@
     <string name="welcome_title">¡Bienvenido Entrenadorx!</string>
     <string name="fullname">Nombre completo</string>
     <string name="intro_image">imagen pikachu</string>
+    <string name="pin">Pin</string>
+    <string name="next">Siguiente</string>
 </resources>
