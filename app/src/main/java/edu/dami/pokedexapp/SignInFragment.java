@@ -8,14 +8,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class SignUpFragment extends Fragment {
+public class SignInFragment extends Fragment {
 
-    public SignUpFragment() {
+    public SignInFragment() {
         // Required empty public constructor
     }
 
-    public static SignUpFragment newInstance() {
-        SignUpFragment fragment = new SignUpFragment();
+    public static SignInFragment newInstance(String param1, String param2) {
+        SignInFragment fragment = new SignInFragment();
         return fragment;
     }
 
@@ -28,8 +28,6 @@ public class SignUpFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sign_up, container, false);
+        return inflater.inflate(R.layout.fragment_sign_in, container, false);
     }
-
-
 }
