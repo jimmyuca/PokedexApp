@@ -19,26 +19,15 @@
         app:layout_constraintBottom_toTopOf="@id/ph_form"
         />
 
-    <LinearLayout
+    <FrameLayout
         android:id="@+id/ph_form"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:padding="32dp"
         app:layout_constraintLeft_toLeftOf="@id/tv_title"
         app:layout_constraintRight_toRightOf="@id/tv_title"
         app:layout_constraintTop_toBottomOf="@id/tv_title"
-        app:layout_constraintBottom_toTopOf="@id/btn_signin">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="fitCenter"
-            android:adjustViewBounds="true"
-            android:contentDescription="@string/intro_image"
-            app:srcCompat="@drawable/pikachu"
-            />
-
-    </LinearLayout>
+        app:layout_constraintBottom_toTopOf="@id/btn_signin"
+        />
 
     <Button
         android:id="@+id/btn_signin"
