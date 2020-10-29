@@ -90,5 +90,8 @@ public class MainActivity extends AppCompatActivity
                 message = "";
         }
 
+        FragmentManager frgManager = getSupportFragmentManager();
+        ConfirmationFragment frg = ConfirmationFragment.newInstance(message);
+        frg.show(frgManager, "frg_confirm");
     }
 }

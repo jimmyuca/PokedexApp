@@ -20,4 +20,12 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="windowNoTitle">true</item>
     </style>
+
+    <style name="Dialog.FullScreen" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:padding">8dp</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowMinWidthMajor">50%</item>
+        <item name="android:windowMinWidthMinor">50%</item>
+        <item name="colorPrimary">@color/yellow_700</item>
+    </style>
 </resources>

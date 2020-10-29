@@ -7,4 +7,7 @@
     <string name="intro_image">imagen pikachu</string>
     <string name="pin">Pin</string>
     <string name="next">Siguiente</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ready">Listo!</string>
 </resources>
